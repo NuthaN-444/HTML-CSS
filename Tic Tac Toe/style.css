@@ -37,26 +37,31 @@ h1 {
     font-size: 6vmin;
     color: rgb(177, 43, 43);
     background-color: #ffffc7;
+    cursor: pointer;
 }
 
 #reset-btn {
-
+    position: absolute;
+    top:75.3%;
+    left: 50%;
     padding: 1rem;
     font-size: 1.25rem;
     background-color: #191913;
     color: #FFF;
     border-radius: 10PX;
+     cursor: pointer;
 }
 
 #new {
     position: absolute;
     top: 75.3%;
-    left: 40%;
+    left: 41%;
     padding: 1rem;
     font-size: 1.25rem;
     background-color: #191913;
     color: #FFF;
     border-radius: 10PX;
+     cursor: pointer;
 }
 p{
     color: wheat;

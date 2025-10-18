@@ -5,6 +5,7 @@ let msgcont=document.querySelector(".mag");
 let msg = document.querySelector("p")
 let turnO = true;
 
+
 let winPatterns = [
     [0,1,2],
     [0,3,6],
@@ -48,7 +49,7 @@ const enableboxes = () => {
         }
 }
 const showWinner = (winner) => {
-    msg.innerText='Congratution , winner is $(winner)';
+    msg.innerText=`Congratution , winner is ${winner}`;
     msgcont.classList.remove("hide");
     disableboxes();
 }
