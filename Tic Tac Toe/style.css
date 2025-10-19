@@ -40,10 +40,13 @@ h1 {
     cursor: pointer;
 }
 
-#reset-btn {
+.mag {
+    width: fit-content;
     position: absolute;
-    top:75.3%;
-    left: 50%;
+    top: 73.3%;
+    left: 43%;
+}
+#new {
     padding: 1rem;
     font-size: 1.25rem;
     background-color: #191913;
@@ -52,10 +55,8 @@ h1 {
      cursor: pointer;
 }
 
-#new {
-    position: absolute;
-    top: 75.3%;
-    left: 41%;
+.mag #reset-btn {
+    position: relative;
     padding: 1rem;
     font-size: 1.25rem;
     background-color: #191913;
@@ -63,6 +64,7 @@ h1 {
     border-radius: 10PX;
      cursor: pointer;
 }
+
 p{
     color: wheat;
     font-size:5vmin;
